@@ -28,3 +28,26 @@ print(len(df.columns))
 df.plot(kind = 'line', subplots = True, grid = True, title = 'Dados por Ano', 
         layout = (3,1), sharex = True, legend = True, 
         colormap = 'cividis')
+
+df = df.reset_index()
+dfc = df.copy()
+del dfc['ANO']
+
+
+dfc = dfc.set_index('INVEST')
+dfc = dfc.sort_index()
+dfc = dfc.reset_index()
+
+dfc.plot.line(y = 'Crim/100mil', x = 'INVEST',
+             title = 'A influência do investimento em esportes em Maringá/PR na criminalidade anual.',
+             ylabel = 'Criminalidade a cada  100mil Habitantes',
+             grid = True,
+             colormap = 'viridis'
+             )
+
+dfc.plot.line(y = 'Bolsas_Atleta', x = 'INVEST',
+             title = 'A influência do investimento em esportes em Maringá/PR na quantidade de bolsas atleta fornecidas',
+             ylabel = 'Numero de Bolsas Atleta fornecidas',
+             grid = True,  
+             colormap = 'plasma'
+             )
