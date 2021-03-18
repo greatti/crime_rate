@@ -21,3 +21,10 @@ df.INVEST = pd.to_numeric(df.INVEST , errors='coerce')
 df = df.set_index('ANO')
 print(df)
 print(df.columns)
+
+titles = ['Criminalidade ao longo dos anos', 'Investimento ao longo dos anos']
+print(len(df.columns))
+
+df.plot(kind = 'line', subplots = True, grid = True, title = 'Dados por Ano', 
+        layout = (3,1), sharex = True, legend = True, 
+        colormap = 'cividis')
