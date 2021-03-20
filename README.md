@@ -1,3 +1,5 @@
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 <h1 align = 'center'> A study of <b>Crime rate</b> in Maringá PR</h1>
 
 <p align = 'center'>
