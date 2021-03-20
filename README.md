@@ -37,6 +37,7 @@
 <br />
 <br />
 <br />
+
 <p align = 'center' > We conclude from this two plots that as investments increased, the number of "Bolsas" also increases and the "Crime rate" decreased, that means that more people sought to obtain the athlete scholarship and the criminality at Maringá decreased </p> 
 
 
