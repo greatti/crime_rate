@@ -23,8 +23,8 @@
 </p>
 
 <p float='center'>
-  <img src="https://github.com/greatti/crime_rate/blob/main/images/Investimento_Bolsa.png" width="480" align = 'right'/> 
-  <img src="https://github.com/greatti/crime_rate/blob/main/images/investimento_Criminalidade.png" width="400" align = 'left'/>
+  <img src="https://github.com/greatti/crime_rate/blob/main/images/Investimento_Bolsa.png" width="460" align = 'right'/> 
+  <img src="https://github.com/greatti/crime_rate/blob/main/images/investimento_Criminalidade.png" width="390" align = 'left'/>
 </p>
 <br />
 <br />
